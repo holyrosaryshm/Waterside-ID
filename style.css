@@ -91,4 +91,8 @@ p.denom {
         position: fixed;
         bottom: 0;
     }
+
+    .logo {
+        width: 15%;
+    }
 }    
