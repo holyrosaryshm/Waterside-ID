@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Libre Baskerville", Montaga, serif;
+    font-family: "Julius Sans One", sans-serif;
+}
+
+h1 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 28px;
+    color: #3E4095;
+    margin: 0 0 10px;
+}
+
+h2 {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 30px;
+    color: #01AAA7;
+    margin: 0 0 10px;
+}
+
+hr {
+    border: 2px solid #3E4095;
+    width: 40%;
+    margin: 10px auto 10px;
+}
+
+p {
+    font-family: Montaga, serif;
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+footer {
+    margin-top: 100px;
+}
+    
+footer>p {
+    font-family: montaga, serif;
+    font-size: 10px;
+}
+
+p.fname {
+    color: #3E4095;
+    margin-top: 5px;
+}
+
+p.denom {
+    color: red;
+}
+
+.header {
+    height: 61px;
+    background-color: #01AAA7;
+}
+
+.logo {
+    width: 80px;
+}
+
+.photo {
+    width: 15%
+}
+
+.btn {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 14px;
+    color: #3E4095;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: grey 0 1px;
+    border-radius: 10px;
+    border: 2px solid #3E4095;
+    padding: 10px 20px;
+    margin: 20px 0 100px;
+}
+
+.btn:hover {
+    background-color: #3E4095;
+    color: #fff;
+}
+
+.footer {
+    height: 10px;
+    background-color: #01AAA7;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+   h1, h2 {
+        font-size: 18px;
+    }
+    
+    .logo {
+        width: 15%;
+    }
+    .photo {
+        width: 20%;
+    }
+}    
